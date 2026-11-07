@@ -1,2 +1,41 @@
 # GConnect
-1. Introduction GConnect is a web-based platform that brings federal and provincial government schemes, scholarships, financial assistance, and other opportunities together in one place. Users can select their province to view applicable federal schemes and programs specific to their province, along with eligibility requirements, documents, deadlines, and official application links. 2. Problem Statement Government opportunities are scattered across multiple websites, making it difficult for citizens to find relevant schemes and understand their eligibility. Provincial schemes may also be irrelevant to citizens living in other provinces. 3. Proposed Solution GConnect will provide a centralized platform that filters government schemes according to users' provinces and matches their personal information against published eligibility criteria. It will display relevant opportunities, required documents, deadlines, and official application links, helping citizens find suitable programs more easily. 4. Key Features •	Province-Wise Filtering: Display applicable federal and province-specific schemes. •	Eligibility Checker: Match users' age, education, income, domicile, and other details with scheme requirements. •	Multiple Categories: Scholarships, youth programs, financial assistance, housing, and skills development. •	Deadline Notifications: Remind users about approaching deadlines. •	Official Information: Provide scheme requirements, documents, application links, and source verification dates. •	Admin Dashboard: Allow administrators to add, update, and verify scheme information. •	Bilingual Interface: Support English and Urdu. 5. Objectives •	Centralize government schemes and opportunities across Pakistan. •	Simplify access to relevant federal and provincial programs. •	Prevent unrelated provincial schemes from appearing in users' results. •	Help citizens identify opportunities matching their eligibility. •	Improve awareness through verified information and deadline reminders. 6.Algorithm Step 1: Start. Step 2: Allow the user to register or log in. Step 3: Ask the user to enter relevant information, such as province, age, education, income, domicile, and employment status. Step 4: Retrieve available government schemes from the database. Step 5: Filter schemes according to their jurisdiction: •	Display applicable federal government schemes. •	Display schemes belonging to the user's selected province. •	Exclude schemes from unrelated provinces. Step 6: Check the user's eligibility against each scheme's published criteria. Step 7: Separate schemes into eligible, potentially eligible, and ineligible categories. Mark unknown or unverified requirements clearly. Step 8: Display relevant schemes with their eligibility criteria, required documents, deadlines, and official application links. Step 9: Notify the user about approaching deadlines, if notifications are enabled. Step 10: Allow the administrator to add, update, verify, or remove outdated scheme information. Step 11: Repeat the process whenever the user updates their profile or searches again. Step 12: End the process when the user exits the system.       7.Flowchart    8. System Architecture 1.	Frontend: Developed using HTML, CSS, JavaScript, and Bootstrap to provide a responsive interface for user registration, profile management, scheme searching, and displaying results. 2.	Backend: Developed using Python with Flask or Django to handle authentication, province-wise filtering, eligibility checking, personalized recommendations, and notifications. 3.	Database: MySQL or PostgreSQL will store user profiles, government scheme details, eligibility criteria, deadlines, official links, and verification records. 4.	Admin Panel: A secure dashboard will allow administrators to manage scheme information and maintain its accuracy.
+1. Introduction:
+ GConnect is a web-based platform that brings federal and provincial government schemes, scholarships, financial assistance, and other opportunities together in one place. Users can select their province to view applicable federal schemes and programs specific to their province, along with eligibility requirements, documents, deadlines, and official application links.
+ 2. Problem Statement:
+  Government opportunities are scattered across multiple websites, making it difficult for citizens to find relevant schemes and understand their eligibility. Provincial schemes may also be irrelevant to citizens living in other provinces. 
+ 3. Proposed Solution:
+  GConnect will provide a centralized platform that filters government schemes according to users' provinces and matches their personal information against published eligibility criteria. It will display relevant opportunities, required documents, deadlines, and official application links, helping citizens find suitable programs more easily.
+  4. Key Features:
+   •	Province-Wise Filtering: Display applicable federal and province-specific schemes.
+    •	Eligibility Checker: Match users' age, education, income, domicile, and other details with scheme requirements.
+   •	Multiple Categories: Scholarships, youth programs, financial assistance, housing, and skills development.
+   •	Deadline Notifications: Remind users about approaching deadlines. 
+   •	Official Information: Provide scheme requirements, documents, application links, and source verification dates. 
+   •	Admin Dashboard: Allow administrators to add, update, and verify scheme information.
+   •	Bilingual Interface: Support English and Urdu. 
+   5. Objectives:
+    •	Centralize government schemes and opportunities across Pakistan.
+    •	Simplify access to relevant federal and provincial programs. 
+    •	Prevent unrelated provincial schemes from appearing in users' results. 
+    •	Help citizens identify opportunities matching their eligibility. 
+    •	Improve awareness through verified information and deadline reminders. 
+   6. Algorithm: 
+   Step 1: Start. 
+   Step 2: Allow the user to register or log in. 
+   Step 3: Ask the user to enter relevant information, such as province, age, education, income, domicile, and employment status. 
+   Step 4: Retrieve available government schemes from the database. 
+   Step 5: Filter schemes according to their jurisdiction: 
+   •	Display applicable federal government schemes. 
+   •	Display schemes belonging to the user's selected province. 
+   •	Exclude schemes from unrelated provinces. Step 6: Check the user's eligibility against each scheme's published criteria. 
+   Step 7: Separate schemes into eligible, potentially eligible, and ineligible categories. Mark unknown or unverified requirements clearly. 
+   Step 8: Display relevant schemes with their eligibility criteria, required documents, deadlines, and official application links. 
+   Step 9: Notify the user about approaching deadlines, if notifications are enabled. 
+   Step 10: Allow the administrator to add, update, verify, or remove outdated scheme information. 
+   Step 11: Repeat the process whenever the user updates their profile or searches again. 
+   Step 12: End the process when the user exits the system.       
+   7. System Architecture:
+    1.	Frontend: Developed using HTML, CSS, JavaScript, and Bootstrap to provide a responsive interface for user registration, profile management, scheme searching, and displaying results.
+    2.	Backend: Developed using Python with Flask or Django to handle authentication, province-wise filtering, eligibility checking, personalized recommendations, and notifications.
+    3.	Database: MySQL or PostgreSQL will store user profiles, government scheme details, eligibility criteria, deadlines, official links, and verification records. 
+    4.	Admin Panel: A secure dashboard will allow administrators to manage scheme information and maintain its accuracy.
